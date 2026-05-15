@@ -41,21 +41,21 @@ if(strcmp(argv[1],"addition")==0){
 
   printf("Result: %d\n",add(num1,num2));
 
-}else if((strcmp(argv[1],"subraction")==0){
+}else if((strcmp(argv[1],"subraction")==0)){
 
   printf("\nResult: %d\n",sub(num1,num2));
 
-}else if((strcmp(argv[1],"multipy")==0){
+}else if((strcmp(argv[1],"multipy")==0)){
 
   printf("\nResult: %d\n",multiply(num1,num2));
 
-}else if((strcmp(argv[1],"divsion")==0){
+}else if((strcmp(argv[1],"divsion")==0)){
 
   printf("\nResult: %d\n",divsion(num1,num2));
 
 }else {
 
-  printf("Wrong method")
+  printf("Wrong method");
 }
 
 return 0;
