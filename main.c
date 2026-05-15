@@ -4,7 +4,11 @@ int add(int a,int b){
     return a+b;
 }
 
-int n1,n2;
+int sub(int a,int b){
+    return a-b;
+}
+
+// n1 ,n2 is removed 
 
 void main(){
     printf("Number 1 : ");
